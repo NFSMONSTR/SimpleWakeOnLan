@@ -38,7 +38,7 @@ public class SendMagicPacket extends AsyncTask<Void,Void,Byte> {
             byte[] macBuff = new byte[6];
             for (int i=0;i<6;i++) {
                 buffer[i] = (byte) 0xFF;
-                macBuff[i] = Converter.hexIntoByte(mac.substring(i*2,i*2+1));
+                macBuff[i] = Converter.hexIntoByte(mac.substring(i*2,i*2+2));
             }
             for (int i=0; i<16; i++) {
                 System.arraycopy(macBuff,0,buffer,6+6*i,6);
