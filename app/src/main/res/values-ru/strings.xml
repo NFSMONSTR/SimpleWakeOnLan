@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_name">Название:</string>
+    <string name="hint_port">Порт:</string>
+    <string name="hint_mac">Mac-адрес:</string>
+    <string name="save_button">Сохранить</string>
+    <string name="incorrect_input">Данные введены неверно</string>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_del">Удалить</string>
+    <string name="send_ok">Магический пакет успешно отправлен</string>
+    <string name="send_fail">Произошла ошибка во время отправки:</string>
+    <string name="broadcast_checkbox">Широковещательный адрес</string>
+    <string name="about_showLicense">Показать текст лицензии</string>
+    <string name="about_hideLicense">Скрыть текст лицензии</string>
+    <string name="menu_about">О программе</string>
+</resources>
