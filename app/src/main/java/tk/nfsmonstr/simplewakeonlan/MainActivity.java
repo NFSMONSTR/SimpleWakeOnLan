@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.settings), Context.MODE_PRIVATE);
                 int count = sharedPreferences.getInt("serversCount",0);
                 SharedPreferences.Editor editor = sharedPreferences.edit();
-                for (int i=info.position-1;i<count-1;i++) {
+                for (int i=info.position;i<count-1;i++) {
                     editor.remove("server-name-".concat(String.valueOf(i)));
                     editor.remove("server-ip-".concat(String.valueOf(i)));
                     editor.remove("server-mac-".concat(String.valueOf(i)));
